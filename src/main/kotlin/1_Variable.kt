@@ -1,5 +1,12 @@
+// 외부에서 변수 선언가능
+// Top Level 에 위치한 변수
+var x = 5
 
 fun main() {
+    // Top Level 변수 참조가능
+    x += 1
+    println(x)
+
 
     // 변수 선언
     val a: Int = 1
